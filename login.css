@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: "Consolas";
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+body {
+    width: 100vw;
+    background-color: #050B24;
+    background-size: 120% 100%;
+}
+
+.nav-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 80px;
+}
+
+nav svg {
+    fill: #FFF;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.form-wrapper input::placeholder {
+    color: black;
+    font-size: 12px;
+    font-family: "Consolas";
+    justify-content: space-between;
+}
+
+
+.form-wrapper input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+body h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+
+body h3 {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: "Consolas";
+    font-size: 20px;
+}
+
+body svg {
+    max-width: 700px;
+    max-height: 700px;
+    margin-left: 100px;
+}
+
+button {
+    display: inline-block;
+    background-color: #33B558;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

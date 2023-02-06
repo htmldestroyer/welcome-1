@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: "Consolas";
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+body {
+    width: 100vw;
+    background-color: #050B24;
+    background-size: 120% 100%;
+}
+
+.form-wrapper input::placeholder {
+    color: black;
+    font-size: 12px;
+    font-family: "Consolas";
+    justify-content: space-between;
+}
+
+
+.form-wrapper input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.form-wrapper2 input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.form-wrapper2 input::placeholder {
+    color: black;
+    font-size: 12px;
+    font-family: "Consolas";
+    justify-content: space-between;
+}
+
+body h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+
+body h3 {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: "Consolas";
+    font-size: 20px;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body svg {
+    max-width: 700px;
+    max-height: 700px;
+    margin-left: 100px;
+}
+
+button {
+    display: inline-block;
+    background-color: #33B558;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

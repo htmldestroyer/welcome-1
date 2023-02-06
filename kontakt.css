@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: "Consolas";
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+body {
+    width: 100vw;
+    background-color: #050B24;
+    background-size: 120% 100%;
+}
+
+body h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.content h2 {
+    margin-left: 100px;
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #8193B2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+body h2 {
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #8193B2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+body h3 {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: "Consolas";
+    font-size: 20px;
+}
+
+body svg {
+    max-width: 700px;
+    max-height: 700px;
+    margin-left: 100px;
+}
+
+.insta img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    border-radius: 60px;
+}
+
+.gmail img {
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 550px;
+    margin-top: -1300px;
+    margin-bottom: 200px;
+    border-radius: 60px;
+}
+
+.letzte-zeilen h3 {
+    font-family: "Consolas";
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.letzte-zeilen hr {
+    color: grey;
+    width: 1000px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+}
+
+button {
+    display: inline-block;
+    background-color: #33B558;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: "Consolas";
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+body {
+    width: 100vw;
+    background-color: #050B24;
+    background-size: 120% 100%;
+}
+
+body h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+
+body h2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 500px;
+    margin-bottom: 60px;
+    font-family: "Consolas";
+    font-size: 30px;
+}
+
+body svg {
+    max-width: 700px;
+    max-height: 700px;
+    margin-left: 100px;
+}
